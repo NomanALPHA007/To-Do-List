@@ -1,0 +1,18 @@
+body {
+  background-color: #e9ecef;
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#todo-list .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-list .list-group-item .btn {
+  margin-left: 10px;
+}
