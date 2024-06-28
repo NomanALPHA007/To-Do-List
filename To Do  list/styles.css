@@ -1,18 +1,50 @@
 body {
   background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .card {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  border: 2px solid #007bff;
 }
 
 #todo-list .list-group-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.25rem;
 }
 
 #todo-list .list-group-item .btn {
   margin-left: 10px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.form-control-lg {
+  font-size: 1.5rem;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
